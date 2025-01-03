@@ -2,7 +2,7 @@ import { Calendar, GhostIcon, HelpCircle, HomeIcon, LogOut, MessageCircle, Timer
 
 const LeftNavigation = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen text-white p-4">
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 text-white p-4">
       <div className="flex flex-col space-y-8">
       <div className="flex items-center space-x-2">
           <GhostIcon className="w-6 h-6 text-gray-400 cursor-pointer hover:text-gray-800 transition" />
@@ -29,8 +29,6 @@ const LeftNavigation = () => {
           <HelpCircle className="w-6 h-6 text-gray-400 cursor-pointer hover:text-gray-800 transition" />
         </div>
       </div>
-
-      {/* Spacer to push LogOut button to the bottom */}
       <div className="mt-auto flex justify-center">
         <div className="flex items-center space-x-2 cursor-pointer">
           <LogOut className="w-6 h-6 text-gray-400 cursor-pointer hover:text-gray-800 transition" />
